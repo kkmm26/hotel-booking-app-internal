@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import Spinner from "../../ui/Spinner.jsx";
-import CabinRow from "./CabinRow.jsx";
+import Spinner from "../../ui/Spinner";
+import CabinRow from "./CabinRow";
 import { useCabins } from "./useCabins";
 
 const Table = styled.div`
